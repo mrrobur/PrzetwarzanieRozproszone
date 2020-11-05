@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using COVIDpatients.Model;
+using COVIDpatients.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +35,9 @@ namespace COVIDpatients
             ).AddXmlSerializerFormatters();
 
             services.AddControllers();
+
+            services.AddScoped<ServiceBusSender>();
+
             services.AddDbContext<DpDataContext>(options =>
                 {
                     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));

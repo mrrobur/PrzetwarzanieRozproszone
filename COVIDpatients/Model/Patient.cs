@@ -15,6 +15,7 @@ namespace COVIDpatients.Model
         public string surname { get; set; }
         public int age { get; set; }
         public string email { get; set; }
+        public string startDate {get; set;}
     }
 
 }

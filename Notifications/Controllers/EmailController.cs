@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Notifications.Model;
+using Notifications.Services;
 
 namespace Notifications.Controllers
 {
@@ -17,13 +18,8 @@ namespace Notifications.Controllers
         [HttpPost]
         public void SendMessage(EmailMessageRequest request)
         {
-            var smtp = new SmtpClient("smtp.gmail.com")
-            {
-                Port = 587,
-                Credentials = new NetworkCredential("devmail.kw@gmail.com", "9P4g$S$9@0K7%C"),
-                EnableSsl = true
-            };
-            smtp.Send("devmail.kw@gmail.com", request.EmailAddress, request.Subject, request.Body);
+            EmailSender sender = new EmailSender();
+            sender.SendNewPatientEmail(request.EmailAddress, request.dateStart);
         }
     }
 }

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using System.Text;
+using COVIDpatients.Services;
 
 namespace COVIDpatients.Controllers
 {
@@ -16,9 +17,12 @@ namespace COVIDpatients.Controllers
     public class PatientsController : ControllerBase
     {
         private readonly DpDataContext _context;
-        public PatientsController(DpDataContext context)
+        private readonly ServiceBusSender _sender;
+
+        public PatientsController(DpDataContext context, ServiceBusSender sender)
         {
             _context = context;
+            _sender = sender;
         }
         
         // Get list of patients from PatientsController
@@ -37,29 +41,15 @@ namespace COVIDpatients.Controllers
             _context.Patients.Add(p);
             _context.SaveChanges();
 
+              string patientEmail = p.email;
+            string startDate = p.startDate;
 
-            HttpClient client = new HttpClient();
-            string EmailJson = JsonSerializer.Serialize(new EmailMessageRequest()
-            {
-                EmailAddress = "devmail.kw@gmail.com",
-                Subject = "Zarejestrowano pacjenta",
-                Body = "Treść wiadomości"
-            });
-
-            await client.PostAsync("https://localhost:44311/api/email",
-                new StringContent(EmailJson, Encoding.UTF8, "application/json"));
-
+           // await _sender.SendMessage(new MessagePayload() { EventName = "NewUserRegistered", UserEmail = "devmail.kw@gmail.com" });
+            await _sender.SendMessage(new MessagePayload() { EventName = "NewUserRegistered", UserEmail = patientEmail, dateStart = startDate });
 
 
             return Created("/api/patients", p);
         }
     }
 
-    public class EmailMessageRequest
-    {
-        public string EmailAddress { get; set; }
-        public string Subject { get; set; }
-        public string Body { get; set; }
-
-    }
 }
