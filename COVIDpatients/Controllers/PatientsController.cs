@@ -31,7 +31,7 @@ namespace COVIDpatients.Controllers
             _context.Patients.Add(p);
             _context.SaveChanges();
 
-            return Created("/api/users/4", p);
+            return Created("/api/patients", p);
         }
     }
 }
