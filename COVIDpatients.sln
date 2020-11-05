@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COVIDpatients", "COVIDpatients\COVIDpatients.csproj", "{3924B632-1BC8-48FC-A968-1DBD311DBC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{09C417C1-E8C2-4C72-A2FE-1BE9043DDC5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{09C417C1-E8C2-4C72-A2FE-1BE9043DDC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Notifications\Notifications.csproj", "{F4E0870B-312A-4160-928E-FDA120EEA1D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{09C417C1-E8C2-4C72-A2FE-1BE9043DDC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09C417C1-E8C2-4C72-A2FE-1BE9043DDC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09C417C1-E8C2-4C72-A2FE-1BE9043DDC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E0870B-312A-4160-928E-FDA120EEA1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E0870B-312A-4160-928E-FDA120EEA1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E0870B-312A-4160-928E-FDA120EEA1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E0870B-312A-4160-928E-FDA120EEA1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
