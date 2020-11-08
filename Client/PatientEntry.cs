@@ -1,7 +1,10 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using IdentityModel.Client;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -22,6 +25,10 @@ namespace Client
 
             HttpClient client = new HttpClient();
 
+            string token = await GetToken();
+
+            client.DefaultRequestHeaders.Authorization = AuthenticationHeaderValue.Parse("Bearer " + token);
+
             string line = "";
 
             while ((line = Console.ReadLine().ToUpper()) != "Q")
@@ -34,14 +41,19 @@ namespace Client
 
                         var response = await client.GetStringAsync("https://localhost:44305/api/patients");
 
+                        string unauth = "Response status code does not indicate success: 401 (Unauthorized).";
+
+     
                         dynamic array = NS.JsonConvert.DeserializeObject(response);
                         Console.WriteLine("Lista pacjentów:");
-                        Console.WriteLine(" {0,10} | {1,20} | {2,5} | {3,40} | {4,20}", "Imię", "Nazwisko", "Wiek", "E-mail","Kwarantanna od");
+                        Console.WriteLine(" {0,10} | {1,20} | {2,5} | {3,40} | {4,20}", "Imię", "Nazwisko", "Wiek", "E-mail", "Kwarantanna od");
 
                         foreach (var item in array)
                         {
                             Console.WriteLine(" {0,10} | {1,20} | {2,5} | {3,40} |  {4,20}", item.name, item.surname, item.age, item.email, item.startDate);
                         }
+
+                        
 
                         Console.Write("\nWybierz opcję: ");
 
@@ -137,11 +149,63 @@ namespace Client
 
             }
 
+
+
             
 
         //Console.WriteLine(responseJson.name);
 
         }
+
+
+    private static async Task<string> GetToken()
+    {
+    using var client = new HttpClient();
+
+     DiscoveryDocumentResponse disco = await client.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest()
+    {
+
+    Address = "https://login.microsoftonline.com/61a84301-8c97-40f0-aa97-66d871c63d8f/v2.0/",
+
+    //PR
+    //Address = "https://login.microsoftonline.com/146ab906-a33d-47df-ae47-fb16c039ef96/v2.0/",
+
+    Policy =
+    {
+    ValidateEndpoints = false
+    }
+    });
+
+     if (disco.IsError)
+    throw new InvalidOperationException(
+    $"No discovery document. Details: {disco.Error}");
+
+            var tokenRequest = new ClientCredentialsTokenRequest
+            {
+                Address = disco.TokenEndpoint,
+                ClientId = "0a862973-d546-4aca-a248-1d6743ab05cd",
+                ClientSecret = "6YiV7dLd1L..X~_kQ7CiSY8tAXc8W.j2R4",
+                Scope = "api://0a862973-d546-4aca-a248-1d6743ab05cd/.default"
+            };
+
+            //PR
+            //var tokenRequest = new ClientCredentialsTokenRequest
+            //{
+            //Address = disco.TokenEndpoint,
+            //ClientId = "fce95216-40e5-4a34-b041-f287e46532be",
+            //ClientSecret = "XWGsyzt9uM-Ia2SA8WE7~gvUJ~4og-U_1p",
+            //Scope = "api://fce95216-40e5-4a34-b041-f287e46532be/.default"
+            //};
+
+
+            var token = await client.RequestClientCredentialsTokenAsync(tokenRequest);
+
+     if (token.IsError)
+    throw new InvalidOperationException($"Couldn't gather token. Details: {token.Error}");
+
+     return token.AccessToken;
+    }
+
     }
 
 

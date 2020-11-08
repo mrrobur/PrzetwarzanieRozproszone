@@ -9,11 +9,13 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using System.Text;
 using COVIDpatients.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace COVIDpatients.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PatientsController : ControllerBase
     {
         private readonly DpDataContext _context;

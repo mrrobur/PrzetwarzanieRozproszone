@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using COVIDpatients.Model;
 using COVIDpatients.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Logging;
 
 namespace COVIDpatients
 {
@@ -36,7 +38,35 @@ namespace COVIDpatients
 
             services.AddControllers();
 
+            // Que ServiceBus
             services.AddScoped<ServiceBusSender>();
+
+            // Authentication
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                // ClientId: 0a862973-d546-4aca-a248-1d6743ab05cd
+                // Directory Id: 61a84301-8c97-40f0-aa97-66d871c63d8f
+
+                options.Authority = "https://login.microsoftonline.com/61a84301-8c97-40f0-aa97-66d871c63d8f/v2.0/";
+                options.Audience = "api://0a862973-d546-4aca-a248-1d6743ab05cd";
+                options.TokenValidationParameters.ValidateIssuer = false;
+
+                //PR
+                // ClientId: fce95216-40e5-4a34-b041-f287e46532be
+                // Directory ID: 146ab906-a33d-47df-ae47-fb16c039ef96
+
+                //options.Authority = "https://login.microsoftonline.com/146ab906-a33d-47df-ae47-fb16c039ef96/v2.0/";
+                //options.Audience = "api://fce95216-40e5-4a34-b041-f287e46532be";
+                //options.TokenValidationParameters.ValidateIssuer = false;
+
+                options.IncludeErrorDetails = true;
+            });
+
+            IdentityModelEventSource.ShowPII = true;
 
             services.AddDbContext<DpDataContext>(options =>
                 {
@@ -57,7 +87,10 @@ namespace COVIDpatients
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {
