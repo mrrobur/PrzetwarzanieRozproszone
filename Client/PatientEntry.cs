@@ -1,7 +1,10 @@
 ﻿using IdentityModel.Client;
+using Microsoft.Identity.Client;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -18,16 +21,34 @@ namespace Client
     {
         static async Task Main(string[] args)
         {
+
+            HttpClient client = new HttpClient();
+
+            var app = PublicClientApplicationBuilder.Create("0a862973-d546-4aca-a248-1d6743ab05cd")
+                .WithAuthority("https://login.microsoftonline.com/61a84301-8c97-40f0-aa97-66d871c63d8f/v2.0/")
+                .WithDefaultRedirectUri()
+                .Build();
+
             Console.WriteLine("------------------ COVID Pacjenci --------------------");
+
+            Console.WriteLine("Wymagana autentykacja. Za chwilę nastąpi przekierowanie do logowania");
+            System.Threading.Thread.Sleep(2000);
+
+            string token = "";
+            var token_api = await app.AcquireTokenInteractive(new[] { "api://0a862973-d546-4aca-a248-1d6743ab05cd/.default" }).ExecuteAsync();
+            token = token_api.AccessToken;
+            client.DefaultRequestHeaders.Authorization = AuthenticationHeaderValue.Parse("Bearer " + token);
+            if (token.Length > 0)
+            {
+                Console.WriteLine("Autentykacja udana");
+            }
+
+
             Console.WriteLine("\nDostępne opcje: \t L - wyświetl listę pacjentów \t D - dodaj pacjenta \t Q - wyjdź z programu");
             Console.WriteLine("Wybierz opcję: ");
 
 
-            HttpClient client = new HttpClient();
 
-            string token = await GetToken();
-
-            client.DefaultRequestHeaders.Authorization = AuthenticationHeaderValue.Parse("Bearer " + token);
 
             string line = "";
 
@@ -46,11 +67,11 @@ namespace Client
      
                         dynamic array = NS.JsonConvert.DeserializeObject(response);
                         Console.WriteLine("Lista pacjentów:");
-                        Console.WriteLine(" {0,10} | {1,20} | {2,5} | {3,40} | {4,20}", "Imię", "Nazwisko", "Wiek", "E-mail", "Kwarantanna od");
+                        Console.WriteLine("{5,5} | {0,10} | {1,20} | {2,5} | {3,40} | {4,20}", "Imię", "Nazwisko", "Wiek", "E-mail", "Kwarantanna od", "ID");
 
                         foreach (var item in array)
                         {
-                            Console.WriteLine(" {0,10} | {1,20} | {2,5} | {3,40} |  {4,20}", item.name, item.surname, item.age, item.email, item.startDate);
+                            Console.WriteLine("{5,5} | {0,10} | {1,20} | {2,5} | {3,40} |  {4,20}", item.name, item.surname, item.age, item.email, item.startDate, item.id);
                         }
 
                         
@@ -211,6 +232,9 @@ namespace Client
 
     public class Patients
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int id { get; set; }
         public string name { get; set; }
         public string surname { get; set; }
         public int age { get; set; }
