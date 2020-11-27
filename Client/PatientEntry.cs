@@ -62,7 +62,7 @@ namespace Client
 
                         var response = await client.GetStringAsync("https://localhost:44305/api/patients");
 
-                        string unauth = "Response status code does not indicate success: 401 (Unauthorized).";
+                       // string unauth = "Response status code does not indicate success: 401 (Unauthorized).";
 
      
                         dynamic array = NS.JsonConvert.DeserializeObject(response);
@@ -79,7 +79,8 @@ namespace Client
                         Console.Write("\nWybierz opcję: ");
 
                         break;
-                    case "D":
+
+                        case "D":
                         Console.WriteLine("\nWprowadzanie nowego pacjenta");
                         Console.Write("Imię: ");
                         string name = Console.ReadLine();
@@ -134,6 +135,9 @@ namespace Client
                         var status = await client.PostAsync("https://localhost:44305/api/patients",
                             new StringContent(patientJson, Encoding.UTF8, "application/json"));
 
+                        //var ex = await client.PutAsync("https://localhost:44305/api/patients",
+                        //    new StringContent(patientJson, Encoding.UTF8, "application/json"));
+
                         if (status.IsSuccessStatusCode)
                         {
                             Console.Write("Dodano pacjenta. Response(" + status.StatusCode + "). Zlecono wysyłkę maila");
@@ -146,6 +150,14 @@ namespace Client
                         Console.Write("\n\nWybierz opcję: ");
 
                         break;
+
+                    case "E":
+                        var t = "fff";
+                        var ex = await client.PutAsync("https://localhost:44305/api/patients",
+                            new StringContent(t, Encoding.UTF8, "application/json"));
+                        //throw new InvalidOperationException("Test exception");
+                        break;
+
 
                     default:
                         Console.WriteLine("\n"+line + " nie jest poprawną opcją");

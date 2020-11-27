@@ -52,6 +52,12 @@ namespace COVIDpatients.Controllers
 
             return Created("/api/patients", p);
         }
+
+        [HttpPut]
+        public IActionResult InvalidAction()
+        {
+            throw new InvalidOperationException("Test exception");
+        }
     }
 
 }
