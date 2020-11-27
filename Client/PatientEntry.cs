@@ -127,13 +127,26 @@ namespace Client
                         Console.Write("\n\nWybierz opcję: ");
 
                         break;
-                    case "E":
+                    case "EXCEPTION":
                         var t = "fff";
                         var ex = await client.PutAsync("https://localhost:44305/api/patients",
                             new StringContent(t, Encoding.UTF8, "application/json"));
                         //throw new InvalidOperationException("Test exception");
                         break;
 
+                    //case "E2":
+                    //    Patients ep = new Patients()
+                    //    {
+                    //        name = "a",
+                    //        email = "mdsdsd@dad42424.csda",
+                    //        startDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
+                    //    };
+
+                    //    string epatientJson = JsonSerializer.Serialize(ep);
+                    //    var estatus = await client.PostAsync("https://localhost:44305/api/patients",
+                    //       new StringContent(epatientJson, Encoding.UTF8, "application/json"));
+
+                        break;
 
                     default:
                         Console.WriteLine("\n"+line + " nie jest poprawną opcją");

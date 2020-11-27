@@ -1,0 +1,486 @@
+2020-11-27 21:54:48.098 +01:00 [DBG] Hosting starting
+2020-11-27 21:54:55.129 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 21:54:55.998 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 21:54:56.032 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 21:54:56.042 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 21:54:56.816 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 21:54:56.937 +01:00 [INF] Hosting environment: Development
+2020-11-27 21:54:56.985 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 21:54:57.002 +01:00 [DBG] Hosting started
+2020-11-27 22:00:31.179 +01:00 [DBG] Hosting starting
+2020-11-27 22:00:33.784 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:00:33.934 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:00:33.953 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:00:33.968 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:00:33.970 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:00:33.972 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:00:33.974 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:00:33.977 +01:00 [DBG] Hosting started
+2020-11-27 22:01:23.384 +01:00 [DBG] Hosting starting
+2020-11-27 22:01:25.892 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:01:26.204 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:01:26.232 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:01:26.235 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:01:26.239 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:01:26.241 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:01:26.244 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:01:26.246 +01:00 [DBG] Hosting started
+2020-11-27 22:02:30.425 +01:00 [DBG] Hosting starting
+2020-11-27 22:02:32.616 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:02:32.828 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:02:32.848 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:02:32.870 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:02:32.872 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:02:32.874 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:02:32.876 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:02:32.879 +01:00 [DBG] Hosting started
+2020-11-27 22:03:04.330 +01:00 [DBG] Hosting starting
+2020-11-27 22:03:06.902 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:03:07.051 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:03:07.064 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:03:07.075 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:03:07.078 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:03:07.081 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:03:07.083 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:03:07.086 +01:00 [DBG] Hosting started
+2020-11-27 22:04:27.633 +01:00 [DBG] Hosting starting
+2020-11-27 22:04:30.481 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:04:30.739 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:04:30.761 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:04:30.863 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:04:30.868 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:04:30.982 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:04:30.992 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:04:30.994 +01:00 [DBG] Hosting started
+2020-11-27 22:04:56.679 +01:00 [INF] Application is shutting down...
+2020-11-27 22:04:56.684 +01:00 [DBG] Hosting stopping
+2020-11-27 22:04:56.701 +01:00 [DBG] Hosting stopped
+2020-11-27 22:05:21.129 +01:00 [DBG] Hosting starting
+2020-11-27 22:05:23.566 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:05:23.784 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:05:23.845 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:05:23.867 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:05:23.871 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:05:23.874 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:05:23.876 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:05:23.888 +01:00 [DBG] Hosting started
+2020-11-27 22:06:14.740 +01:00 [DBG] Hosting starting
+2020-11-27 22:06:16.844 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:06:16.997 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:06:17.023 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:06:17.032 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:06:17.035 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:06:17.036 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:06:17.040 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:06:17.041 +01:00 [DBG] Hosting started
+2020-11-27 22:07:05.158 +01:00 [DBG] Hosting starting
+2020-11-27 22:07:08.126 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:07:09.650 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:07:09.997 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:07:10.062 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:07:10.079 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:07:10.096 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:07:10.097 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:07:10.100 +01:00 [DBG] Hosting started
+2020-11-27 22:07:26.013 +01:00 [INF] Application is shutting down...
+2020-11-27 22:07:26.015 +01:00 [DBG] Hosting stopping
+2020-11-27 22:07:26.028 +01:00 [DBG] Hosting stopped
+2020-11-27 22:09:13.600 +01:00 [DBG] Hosting starting
+2020-11-27 22:09:22.032 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:09:22.232 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:09:22.263 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:09:22.425 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:09:22.428 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:09:22.430 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:09:22.435 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:09:22.437 +01:00 [DBG] Hosting started
+2020-11-27 22:09:24.061 +01:00 [INF] Application is shutting down...
+2020-11-27 22:09:24.065 +01:00 [DBG] Hosting stopping
+2020-11-27 22:09:24.169 +01:00 [DBG] Hosting stopped
+2020-11-27 22:11:17.631 +01:00 [DBG] Hosting starting
+2020-11-27 22:11:19.696 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:11:19.862 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:11:19.896 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:11:19.923 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:11:19.927 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:11:19.968 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:11:19.973 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:11:19.974 +01:00 [DBG] Hosting started
+2020-11-27 22:13:13.000 +01:00 [DBG] Hosting starting
+2020-11-27 22:13:15.596 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:13:15.765 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:13:15.784 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:13:15.790 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:13:15.792 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:13:15.794 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:13:15.795 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:13:15.799 +01:00 [DBG] Hosting started
+2020-11-27 22:17:04.169 +01:00 [DBG] Hosting starting
+2020-11-27 22:17:06.834 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:17:07.025 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:17:07.044 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:17:07.077 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:17:07.167 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:17:07.168 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:17:07.170 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:17:07.178 +01:00 [DBG] Hosting started
+2020-11-27 22:24:36.672 +01:00 [DBG] Hosting starting
+2020-11-27 22:24:39.104 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:24:39.289 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:24:39.346 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:24:39.354 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:24:39.362 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:24:39.378 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:24:39.379 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:24:39.383 +01:00 [DBG] Hosting started
+2020-11-27 22:26:24.719 +01:00 [DBG] Hosting starting
+2020-11-27 22:26:26.799 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:26:26.991 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:26:27.008 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:26:27.134 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:26:27.136 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:26:27.138 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:26:27.145 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:26:27.169 +01:00 [DBG] Hosting started
+2020-11-27 22:36:33.127 +01:00 [DBG] Hosting starting
+2020-11-27 22:36:36.015 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:36:36.283 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:36:36.608 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:36:36.627 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:36:36.629 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:36:36.631 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:36:36.632 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:36:36.634 +01:00 [DBG] Hosting started
+2020-11-27 22:38:55.672 +01:00 [DBG] Hosting starting
+2020-11-27 22:38:58.817 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:38:58.968 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:38:58.989 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:38:59.059 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:38:59.061 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:38:59.062 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:38:59.064 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:38:59.066 +01:00 [DBG] Hosting started
+2020-11-27 22:41:12.248 +01:00 [DBG] Hosting starting
+2020-11-27 22:41:14.428 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:41:14.671 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:41:14.702 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:41:14.725 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:41:14.736 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:41:14.737 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:41:14.745 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:41:14.747 +01:00 [DBG] Hosting started
+2020-11-27 22:41:16.688 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:17.191 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:17.637 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:17.998 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:18.345 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:18.736 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:19.098 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:19.446 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:19.795 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:36.750 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:37.129 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:37.482 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:37.842 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:38.186 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:38.542 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:38.904 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:39.270 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:39.607 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:41:39.958 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 48
+2020-11-27 22:45:35.565 +01:00 [DBG] Hosting starting
+2020-11-27 22:45:37.910 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:45:38.285 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:45:38.411 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:45:38.427 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:45:38.429 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:45:38.431 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:45:38.433 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:45:38.464 +01:00 [DBG] Hosting started
+2020-11-27 22:46:25.828 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:26.003 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:26.430 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:26.562 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:26.801 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:26.890 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:27.157 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:27.271 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:27.544 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:27.650 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:27.894 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:27.991 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:28.240 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:28.330 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:28.605 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:28.698 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:28.951 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:29.108 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:46:29.792 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:46:29.895 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:50.725 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:50.878 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:51.207 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:51.300 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:51.575 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:51.662 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:51.911 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:52.027 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:52.275 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:52.380 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:52.659 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:52.760 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:53.001 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:53.094 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:53.328 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:53.443 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:53.732 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:53.817 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:47:54.088 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:47:54.172 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:12.409 +01:00 [DBG] Hosting starting
+2020-11-27 22:50:15.086 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:50:15.698 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:50:16.026 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:50:16.113 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:50:16.141 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:50:16.147 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:50:16.158 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:50:16.165 +01:00 [DBG] Hosting started
+2020-11-27 22:50:44.668 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:44.842 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:45.285 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:45.404 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:45.650 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:45.754 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:45.994 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:46.147 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:46.370 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:46.466 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:46.713 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:46.815 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:47.092 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:47.220 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:47.456 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:47.559 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:47.789 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:47.892 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:50:48.136 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 22:50:48.274 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 22:51:26.293 +01:00 [INF] Application is shutting down...
+2020-11-27 22:51:26.299 +01:00 [DBG] Hosting stopping
+2020-11-27 22:51:26.317 +01:00 [DBG] Hosting stopped
+2020-11-27 22:57:38.119 +01:00 [DBG] Hosting starting
+2020-11-27 22:57:40.653 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:57:40.959 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:57:41.007 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:57:41.150 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:57:41.167 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:57:41.176 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:57:41.185 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:57:41.195 +01:00 [DBG] Hosting started
+2020-11-27 22:59:09.056 +01:00 [DBG] Hosting starting
+2020-11-27 22:59:11.529 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-27 22:59:12.007 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: FC23D6B511177678F5C080F952FB8EF95CA49102)
+2020-11-27 22:59:12.061 +01:00 [INF] Now listening on: https://localhost:5002
+2020-11-27 22:59:12.083 +01:00 [DBG] Loaded hosting startup assembly Notifications
+2020-11-27 22:59:12.285 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 22:59:12.296 +01:00 [INF] Hosting environment: Development
+2020-11-27 22:59:12.325 +01:00 [INF] Content root path: C:\Users\admin\source\repos\COVIDpatients\Notifications
+2020-11-27 22:59:12.341 +01:00 [DBG] Hosting started
+2020-11-27 23:00:49.048 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:49.235 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:49.691 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:49.896 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:50.148 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:50.244 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:50.521 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:50.634 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:50.949 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:51.051 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:51.482 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:51.633 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:51.892 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:51.985 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:52.373 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:52.732 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:53.280 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:53.575 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46
+2020-11-27 23:00:54.140 +01:00 [INF] Processing message: NewUserRegistered
+2020-11-27 23:00:54.246 +01:00 [ERR] Thrown exception at sending message
+System.InvalidOperationException: Thrown exception at sending message
+   at Notifications.Services.EmailSender.SendNewPatientEmail(String email, String dateStart) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\EmailSender.cs:line 29
+   at Notifications.Services.ServiceBusConsumer.ProcessMessage(Message message, CancellationToken token) in C:\Users\admin\source\repos\COVIDpatients\Notifications\Services\ServiceBusConsumer.cs:line 46

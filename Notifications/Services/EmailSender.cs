@@ -19,7 +19,20 @@ namespace Notifications.Services
                 Credentials = new NetworkCredential("devmail.kw@gmail.com", "9P4g$S$9@0K7%C"),
                 EnableSsl = true
             };
+
+            if (email == "throw@exception.test")
+            {
+                throw new InvalidOperationException("Thrown exception at sending message");
+            }
+
+  
             smtp.Send("devmail.kw@gmail.com", email, emailSubject, emailBody + dateStart);
+
+
+
+
         }
     }
+
+
 }

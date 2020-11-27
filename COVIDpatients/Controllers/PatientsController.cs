@@ -10,6 +10,7 @@ using System.Text.Json;
 using System.Text;
 using COVIDpatients.Services;
 using Microsoft.AspNetCore.Authorization;
+using Serilog;
 
 namespace COVIDpatients.Controllers
 {
@@ -20,18 +21,23 @@ namespace COVIDpatients.Controllers
     {
         private readonly DpDataContext _context;
         private readonly ServiceBusSender _sender;
+        private readonly ILogger _logger;
 
-        public PatientsController(DpDataContext context, ServiceBusSender sender)
+        public PatientsController(DpDataContext context, ServiceBusSender sender, ILogger logger)
         {
             _context = context;
             _sender = sender;
+            _logger = logger;
         }
         
         // Get list of patients from PatientsController
         [HttpGet]
         public IActionResult GetAll() /*Get* / Post* definiuje rodzaj metody w przeglądarce - definicja Explicit do Swaggera*/
         {
+            _logger.Information("Requested patients list");
+
             return Ok(_context.Patients.ToList());
+
         }
 
 
@@ -46,8 +52,8 @@ namespace COVIDpatients.Controllers
               string patientEmail = p.email;
             string startDate = p.startDate;
 
-           // await _sender.SendMessage(new MessagePayload() { EventName = "NewUserRegistered", UserEmail = "devmail.kw@gmail.com" });
             await _sender.SendMessage(new MessagePayload() { EventName = "NewUserRegistered", UserEmail = patientEmail, dateStart = startDate });
+            _logger.Information("Added patient: " + p.name + " " + p.surname);
 
 
             return Created("/api/patients", p);
