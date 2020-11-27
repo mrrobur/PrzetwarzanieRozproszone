@@ -2,6 +2,8 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -46,14 +48,14 @@ namespace Client
      
                         dynamic array = NS.JsonConvert.DeserializeObject(response);
                         Console.WriteLine("Lista pacjentów:");
-                        Console.WriteLine(" {0,10} | {1,20} | {2,5} | {3,40} | {4,20}", "Imię", "Nazwisko", "Wiek", "E-mail", "Kwarantanna od");
+                        Console.WriteLine("{5,5} | {0,10} | {1,20} | {2,5} | {3,40} | {4,20}", "Imię", "Nazwisko", "Wiek", "E-mail", "Kwarantanna od", "ID");
 
                         foreach (var item in array)
                         {
-                            Console.WriteLine(" {0,10} | {1,20} | {2,5} | {3,40} |  {4,20}", item.name, item.surname, item.age, item.email, item.startDate);
+                            Console.WriteLine("{5,5} | {0,10} | {1,20} | {2,5} | {3,40} |  {4,20}", item.name, item.surname, item.age, item.email, item.startDate, item.id);
                         }
 
-                        
+
 
                         Console.Write("\nWybierz opcję: ");
 
@@ -125,6 +127,13 @@ namespace Client
                         Console.Write("\n\nWybierz opcję: ");
 
                         break;
+                    case "E":
+                        var t = "fff";
+                        var ex = await client.PutAsync("https://localhost:44305/api/patients",
+                            new StringContent(t, Encoding.UTF8, "application/json"));
+                        //throw new InvalidOperationException("Test exception");
+                        break;
+
 
                     default:
                         Console.WriteLine("\n"+line + " nie jest poprawną opcją");
@@ -211,6 +220,9 @@ namespace Client
 
     public class Patients
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int id { get; set; }
         public string name { get; set; }
         public string surname { get; set; }
         public int age { get; set; }
